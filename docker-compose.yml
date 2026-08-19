@@ -1,0 +1,5 @@
+services:
+  voice-sitter:
+    build: .
+    env_file: .env
+    restart: always
